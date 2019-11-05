@@ -35,9 +35,9 @@ export class ComandaComponent implements OnInit {
 
     if(TaxaServico == true)
     {
-      alert("Consumo : " + vlConsumo + 
+      alert("Consumo : "+ vlConsumo + 
       " \n Serviços : " + vlTaxaServico + 
-       "\n Total " + vlTotalTaxa +
+       "\n Total "      + vlTotalTaxa +
        "\n Por pessoa:" + vlTotal   );
     }
     else
