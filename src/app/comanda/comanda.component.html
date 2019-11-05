@@ -9,7 +9,7 @@
       <div id="comanda">
           <h1>Comanda</h1>
 
-          <form [formGroup]="formComanda" (ngSubmit)="onProcessar()" >
+          <form [formGroup]="formcomanda" (ngSubmit)="onProcessar()" >
             <p>
               <label>Chopp</label>
               <input type="text"
@@ -44,7 +44,8 @@
               </p>
 
             <p class="keepcomanda">
-                <input type="checkbox" name="inServico"/>
+                <input type="checkbox" name="inServico"
+                formControlName="TaxaServico"/>
                 <label>Taxa de serviço</label>
             </p>
 
